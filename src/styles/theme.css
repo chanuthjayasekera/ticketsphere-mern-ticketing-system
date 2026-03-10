@@ -1,0 +1,144 @@
+:root{
+  --blue:#3aaed8;
+  --blue2:#6ec6ff;
+  --gray:#6c757d;
+  --bg:#f4f8fc;
+  --card:#ffffff;
+  --shadow: 0 14px 40px rgba(16, 24, 40, 0.10);
+}
+
+body{
+  background: radial-gradient(1200px 500px at 20% 0%, rgba(110,198,255,0.35), transparent 60%),
+              radial-gradient(900px 500px at 80% 10%, rgba(58,174,216,0.18), transparent 55%),
+              var(--bg);
+}
+
+.app-navbar{
+  background: linear-gradient(90deg, rgba(58,174,216,0.98), rgba(110,198,255,0.95));
+  box-shadow: 0 10px 24px rgba(16,24,40,0.10);
+}
+
+.brand-mark{
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  font-weight: 800;
+}
+
+.brand-text{
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.hero{
+  padding: 56px 0 30px;
+}
+
+.hero-art{
+  border-radius: 22px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.hero-title{
+  font-weight: 800;
+}
+
+.text-accent{ color: var(--blue); }
+
+.badge-soft{
+  background: rgba(255,255,255,0.75);
+  color: #245b72;
+  border: 1px solid rgba(58,174,216,0.25);
+  padding: 8px 14px;
+}
+
+.card-soft{
+  border: 0;
+  border-radius: 18px;
+  background: var(--card);
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.07);
+}
+
+.shadow-soft{ box-shadow: var(--shadow); }
+
+.btn-primary{
+  background: var(--blue);
+  border-color: var(--blue);
+}
+.btn-primary:hover{
+  background: #2a9fc8;
+  border-color: #2a9fc8;
+}
+.btn-outline-primary{
+  color: var(--blue);
+  border-color: rgba(58,174,216,0.55);
+}
+.btn-outline-primary:hover{
+  background: rgba(58,174,216,0.08);
+  color: var(--blue);
+  border-color: rgba(58,174,216,0.55);
+}
+
+.icon-bubble{
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(110,198,255,0.28);
+  border: 1px solid rgba(58,174,216,0.2);
+  font-size: 22px;
+}
+
+.badge-status{
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+.badge-Open{ background: rgba(255,193,7,0.18); color: #8a6d00; border: 1px solid rgba(255,193,7,0.35); }
+.badge-InProgress{ background: rgba(58,174,216,0.18); color: #215c72; border: 1px solid rgba(58,174,216,0.35); }
+.badge-Resolved{ background: rgba(40,167,69,0.18); color: #1e6a33; border: 1px solid rgba(40,167,69,0.35); }
+
+.white-space-preline{ white-space: pre-line; }
+
+.logo-sm{ width: 34px; height: 34px; }
+
+.app-footer{
+  background: rgba(255,255,255,0.65);
+  border-top: 1px solid rgba(58,174,216,0.12);
+}
+
+.conversation{
+  max-height: 420px;
+  overflow: auto;
+  padding-right: 6px;
+}
+
+.msg-bubble{
+  border-radius: 16px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(16,24,40,0.08);
+}
+.msg-user{
+  background: rgba(110,198,255,0.16);
+}
+.msg-admin{
+  background: rgba(233,238,245,0.9);
+}
+
+.msg-meta{
+  color: rgba(16,24,40,0.55);
+  margin-bottom: 6px;
+}
+
+.custom-file-label::after{
+  content: "Browse";
+}
